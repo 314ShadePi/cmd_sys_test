@@ -1,0 +1,14 @@
+[workspace]
+members = ["cmd_sys_test_macro", "."]
+default-members = ["."]
+
+[package]
+name = "cmd_sys_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cmd_sys_test_macro = { path = "./cmd_sys_test_macro" }
+inquire = "0.5.3"
